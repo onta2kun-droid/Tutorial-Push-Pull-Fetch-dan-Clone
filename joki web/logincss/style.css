@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Redressed&display=swap');
+
+body {
+    #background: url('login.jpg') no-repeat center center/cover;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(3, 20, 97, 0.959),rgba(200, 193, 255, 0.65)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid #fff;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.form h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+.box {
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+* {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+html,body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
